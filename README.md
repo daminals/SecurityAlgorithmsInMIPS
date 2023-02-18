@@ -1,3 +1,4 @@
+[![Unit Tests](https://github.com/daminals/SecurityAlgorithmsInMIPS/actions/workflows/classroom.yml/badge.svg)](https://github.com/daminals/SecurityAlgorithmsInMIPS/actions/workflows/classroom.yml)
 # Homework 2
 
 ## Learning Outcomes
