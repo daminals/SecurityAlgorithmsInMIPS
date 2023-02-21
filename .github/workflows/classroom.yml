@@ -18,5 +18,6 @@ jobs:
     name: Custom Tests
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v2
       - name: Run CustomTest
         run: ./compile_tests && java -jar munit.jar tests/CustomTest.class hw2.asm
