@@ -55,8 +55,6 @@ public class CustomTest {
     Label msg = asciiData(true, "I love MIPS!");
     run("hash", msg);
     Assert.assertEquals(921, get(v0));
-        // cause a failure to test
-        Assert.assertEquals(-9, 9);
 
   }
 
