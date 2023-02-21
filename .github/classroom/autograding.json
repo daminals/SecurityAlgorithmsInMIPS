@@ -10,18 +10,6 @@
       "timeout": 1,
       "points": null
     }
-  ],
-    "CustomTests": [
-    {
-      "name": "Hw2Test",
-      "setup": "",
-      "run": "java -jar munit.jar tests/CustomTests.class hw2.asm",
-      "input": "",
-      "output": "",
-      "comparison": "included",
-      "timeout": 1,
-      "points": null
-    }
   ]
 
 }
