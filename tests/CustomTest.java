@@ -55,6 +55,9 @@ public class CustomTest {
     Label msg = asciiData(true, "I love MIPS!");
     run("hash", msg);
     Assert.assertEquals(921, get(v0));
+        // cause a failure to test
+        Assert.assertEquals(-9, 9);
+
   }
 
   @Test
@@ -127,8 +130,6 @@ public class CustomTest {
   public void verify_gcd_1() {
     run("gcd", 45, 909);
     Assert.assertEquals(9, get(v0));
-    // cause a failure to test
-    Assert.assertEquals(-9, 9);
   }
 
   @Test
