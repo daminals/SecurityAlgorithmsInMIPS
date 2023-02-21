@@ -154,4 +154,4 @@ It may be convenient to run the test cases locally before pushing to the remote 
 
 `$ java -jar munit.jar tests/<test-file>.class hw2.asm`
 
-Remember to set java in your classpath. Your test cases may fail if you do not have the right setup. If you do not have the right setup it is most likely because you did not do homework 0 correctly. So, do homework 0 first and then come back here! 
+Remember to set java in your classpath. Your test cases may fail if you do not have the right setup. If you do not have the right setup it is most likely because you did not do homework 0 correctly. So, do homework 0 first and then come back here!
