@@ -14,5 +14,9 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - uses: education/autograding@v1
+  custom_tests:
+    name: Custom Tests
+    runs-on: ubuntu-latest
+    steps:
       - name: Run CustomTest
         run: ./compile_tests && java -jar munit.jar tests/CustomTest.class hw2.asm
