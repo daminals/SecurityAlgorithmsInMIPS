@@ -128,7 +128,7 @@ public class CustomTest {
     run("gcd", 45, 909);
     Assert.assertEquals(9, get(v0));
     // cause a failure to test
-    Assert.assertEquals(-9, get(v0));
+    Assert.assertEquals(-9, 9);
   }
 
   @Test
